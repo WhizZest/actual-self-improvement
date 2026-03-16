@@ -120,11 +120,12 @@ def read_text_or_file(text: Optional[str], file_path: Optional[str], field_name:
 
 
 def now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    now = datetime.now().astimezone()
+    return now.replace(microsecond=0).isoformat()
 
 
 def today_str() -> str:
-    return datetime.now(timezone.utc).strftime("%Y%m%d")
+    return datetime.now().strftime("%Y%m%d")
 
 
 def next_id(target_file: Path, prefix: str) -> str:
