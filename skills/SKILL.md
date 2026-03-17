@@ -1,7 +1,7 @@
 ---
 name: self-improvement
 description: Capture durable lessons from debugging, user corrections, missing capabilities, and repeated workflow friction so future sessions avoid the same mistakes. Use this skill when a non-obvious failure is diagnosed, the user corrects or updates the agent, a workaround or project convention is discovered, a capability is missing, a solved issue should be promoted into shared memory, or you should review prior learnings before changing a known-problem area. Do not use for trivial typos, expected failures, straightforward retries, or one-off noise with no reusable lesson.
-compatibility: Portable Agent Skills format. Core workflow is agent-agnostic. Bundled helpers require Python 3.11+; hook helpers require bash. No network access is required. Hook snippets are examples for Claude Code-style configs and OpenClaw; manual use works everywhere.
+compatibility: Portable Agent Skills format. Core workflow is agent-agnostic. Bundled helpers require Python 3.6+; hook helpers require bash. No network access is required. Hook snippets are examples for Claude Code-style configs and OpenClaw; manual use works everywhere.
 metadata:
   version: "4.0.0"
   original_slug: "self-improving-agent"

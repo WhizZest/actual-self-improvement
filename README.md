@@ -73,7 +73,7 @@ Never write learnings into the installed skill directory. Always target the work
 
 ## Requirements
 
-- Python 3.11+ for helper scripts
+- Python 3.6+ for helper scripts
 - Bash for hook helpers (optional)
 
 ## Source
